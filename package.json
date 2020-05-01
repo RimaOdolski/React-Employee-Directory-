@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "employee_directory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,5 +30,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<br>",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RimaOdolski/React-Employee-Directory-.git"
+  },
+  "author": "Rima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RimaOdolski/React-Employee-Directory-/issues"
+  },
+  "homepage": "https://github.com/RimaOdolski/React-Employee-Directory-#readme"
 }
