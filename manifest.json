@@ -1,0 +1,30 @@
+{ 
+    "name": "Employee Directory",
+    "short_name": "Employee Icon ",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "type": "image/x-icon",
+        "sizes": "16x16"
+      },
+      {
+        "src": "./icons/employee_1.jpeg",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "./icons/employee_2.jpeg",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./icons/employee_3.jpeg",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
