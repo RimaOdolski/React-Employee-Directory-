@@ -14,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,7 +35,9 @@
   },
   "description": "<br>",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RimaOdolski/React-Employee-Directory-.git"
@@ -43,5 +47,5 @@
   "bugs": {
     "url": "https://github.com/RimaOdolski/React-Employee-Directory-/issues"
   },
-  "homepage": "https://github.com/RimaOdolski/React-Employee-Directory-#readme"
+  "homepage": " https://rimaodolski.github.io/React-Employee-Directory-/"
 }
